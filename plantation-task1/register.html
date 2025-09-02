@@ -7,6 +7,25 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <!-- Logo -->
+        <a href="#" class="nav-logo">🌳 Jamuna</a>
+
+        <!-- Checkbox hack for mobile toggle -->
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+        <!-- Nav Links -->
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="./why.html">Why</a></li>
+          <li><a href="https://www.jamunafoundation.com/">About</a></li>
+        </ul>
+      </div>
+    </nav>
+
   <!-- Header -->
   <header class="hero small-hero">
     <div class="overlay">
@@ -37,7 +56,28 @@
       <button type="submit" class="cta-btn">Submit</button>
     </form>
   </section>
+   <div class="chat-container">
+      <!-- Checkbox toggle -->
+      <input type="checkbox" id="chat-toggle" />
 
+      <!-- Chat Button -->
+      <label for="chat-toggle" class="chat-btn">💬 Chat</label>
+
+      <!-- Popup Box -->
+      <div class="chat-popup">
+        <div class="chat-header">
+          <span>Jamuna Foundation Chat</span>
+          <label for="chat-toggle" class="close-btn">&times;</label>
+        </div>
+        <div class="chat-body">
+          <p>Hello! 👋 How can we help you today?</p>
+        </div>
+        <div class="chat-footer">
+          <input type="text" placeholder="Type your message..." disabled />
+          <button disabled>Send</button>
+        </div>
+      </div>
+    </div>
   <!-- Footer -->
   <footer>
     <p>&copy; 2025 Jamuna Foundation | All Rights Reserved</p>

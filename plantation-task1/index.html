@@ -1,70 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jamuna Foundation | Tree Plantation Campaign</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- Hero Section -->
-  <header class="hero">
-    <div class="overlay">
-      <h1>🌳 Tree Plantation Drive 2025</h1>
-      <p>Together, let’s make our planet greener.</p>
-      <a href="./register.html" class="cta-btn">Join the Campaign</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jamuna Foundation | Tree Plantation Campaign</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <!-- Logo -->
+        <a href="#" class="nav-logo">🌳 Jamuna</a>
+
+        <!-- Checkbox hack for mobile toggle -->
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+        <!-- Nav Links -->
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="./why.html">Why</a></li>
+          <li><a href="https://www.jamunafoundation.com/">About</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="overlay">
+        <h1>🌳 Tree Plantation Drive 2025</h1>
+        <p>Together, let’s make our planet greener.</p>
+        <a href="./register.html" class="cta-btn">Join the Campaign</a>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About the Campaign</h2>
+      <p>
+        Jamuna Foundation is leading a tree plantation campaign to fight
+        pollution, improve air quality, and create a healthier tomorrow. Every
+        tree you plant is a step toward saving our planet.
+      </p>
+    </section>
+
+    <!-- Why Join Section -->
+    <section id="why">
+      <h2>Why Join Us?</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>🌱 Reduce Carbon</h3>
+          <p>
+            Planting trees helps absorb harmful carbon dioxide and reduces
+            climate change impact.
+          </p>
+        </div>
+        <div class="card">
+          <h3>🌍 Improve Biodiversity</h3>
+          <p>
+            Trees provide shelter and food for birds, insects, and animals,
+            restoring nature’s balance.
+          </p>
+        </div>
+        <div class="card">
+          <h3>💚 Greener Future</h3>
+          <p>Contribute to a sustainable environment for future generations.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- How to Participate -->
+    <section id="participate">
+      <h2>How You Can Help</h2>
+      <p>
+        Join us for our plantation drive on
+        <strong>15th September 2025</strong> in Hyderabad. Volunteers will
+        receive training and free saplings.
+      </p>
+      <a href="https://www.jamunafoundation.com/" class="cta-btn"
+        >Register Now</a
+      >
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>
+        Email:
+        <a href="mailto:jamunafoundation@gmail.com"
+          >jamunafoundation@gmail.com</a
+        >
+      </p>
+      <p>Website: <a href="./register.html" target="_blank">Our Website</a></p>
+    </section>
+
+    <!-- Footer -->
+    <div class="chat-container">
+      <!-- Checkbox toggle -->
+      <input type="checkbox" id="chat-toggle" />
+
+      <!-- Chat Button -->
+      <label for="chat-toggle" class="chat-btn">💬 Chat</label>
+
+      <!-- Popup Box -->
+      <div class="chat-popup">
+        <div class="chat-header">
+          <span>Jamuna Foundation Chat</span>
+          <label for="chat-toggle" class="close-btn">&times;</label>
+        </div>
+        <div class="chat-body">
+          <p>Hello! 👋 How can we help you today?</p>
+        </div>
+        <div class="chat-footer">
+          <input type="text" placeholder="Type your message..." disabled />
+          <button disabled>Send</button>
+        </div>
+      </div>
     </div>
-  </header>
 
-  <!-- About Section -->
-  <section id="about">
-    <h2>About the Campaign</h2>
-    <p>
-      Jamuna Foundation is leading a tree plantation campaign to fight pollution,
-      improve air quality, and create a healthier tomorrow. Every tree you plant is
-      a step toward saving our planet.
-    </p>
-  </section>
-
-  <!-- Why Join Section -->
-  <section id="why">
-    <h2>Why Join Us?</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>🌱 Reduce Carbon</h3>
-        <p>Planting trees helps absorb harmful carbon dioxide and reduces climate change impact.</p>
-      </div>
-      <div class="card">
-        <h3>🌍 Improve Biodiversity</h3>
-        <p>Trees provide shelter and food for birds, insects, and animals, restoring nature’s balance.</p>
-      </div>
-      <div class="card">
-        <h3>💚 Greener Future</h3>
-        <p>Contribute to a sustainable environment for future generations.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- How to Participate -->
-  <section id="participate">
-    <h2>How You Can Help</h2>
-    <p>
-      Join us for our plantation drive on <strong>15th September 2025</strong> in Hyderabad.
-      Volunteers will receive training and free saplings.
-    </p>
-    <a href="#contact" class="cta-btn">Register Now</a>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Email: <a href="mailto:jamunafoundation@gmail.com">jamunafoundation@gmail.com</a></p>
-    <p>Website: <a href="https://www.jamunafoundation.com" target="_blank">jamunafoundation.com</a></p>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Jamuna Foundation | All Rights Reserved</p>
-  </footer>
-</body>
+    <footer>
+      <p>&copy; 2025 Jamuna Foundation | All Rights Reserved</p>
+    </footer>
+  </body>
 </html>
